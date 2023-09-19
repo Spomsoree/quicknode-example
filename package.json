@@ -1,0 +1,17 @@
+{
+    "name": "quicknode-example",
+    "module": "example.js",
+    "type": "module",
+    "scripts": {
+        "dev": "bun run --watch example.js"
+    },
+    "devDependencies": {
+        "bun-types": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "web3": "^4.1.1"
+    }
+}
